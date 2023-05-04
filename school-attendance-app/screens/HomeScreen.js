@@ -11,7 +11,7 @@ export default class HomeScreen extends React.Component{
       absentPressed: [],
     };
   }
-
+ 
   componentDidMount = async() => {
     var class_ref =await db.ref('/').on('value', data => {
       var all_students =  []
