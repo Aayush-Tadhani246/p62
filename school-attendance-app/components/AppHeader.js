@@ -10,7 +10,7 @@ class AppHeader extends React.Component{
     );
   }
 }
-
+ 
 const styles = StyleSheet.create({
   textContainer:{
     backgroundColor: 'black',
