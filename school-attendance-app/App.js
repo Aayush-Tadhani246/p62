@@ -12,7 +12,7 @@ export default class App extends React.Component {
         <AppContainer />
       </View>
     );
-  }
+  } 
 }
 var AppNavigator = createSwitchNavigator({
   HomeScreen: HomeScreen,
